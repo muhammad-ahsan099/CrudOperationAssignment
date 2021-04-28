@@ -1,0 +1,34 @@
+
+
+
+
+h1 {
+    color: rgb(79, 79, 212);
+    text-align: center;
+}
+
+
+
+.tableHead {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+   .tableRow > th {
+    border: 1px solid #706262;
+    text-align: center;
+    padding: 10px;
+  }
+  .tableRow > td {
+    border: 1px solid #706262;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  .tableRow:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  
